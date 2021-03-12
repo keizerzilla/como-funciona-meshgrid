@@ -35,6 +35,18 @@ def show_pointcloud(cloud):
     pcd.points = o3d.utility.Vector3dVector(cloud)
     o3d.visualization.draw_geometries([pcd])
 
+def cluster_cloud(cloud):
+    """
+    """
+    
+    pass
+
+def svd_cloud(cloud):
+    """
+    """
+    
+    pass
+
 if __name__ == "__main__":
     bunny = load_xyz("bunny.xyz")
     print(f"Dimensão da nuvem: {bunny.shape}")
